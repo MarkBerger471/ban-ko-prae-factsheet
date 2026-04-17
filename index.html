@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ban Ko Prae School Relocation — Fact Sheet</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=DM+Sans:opsz,wght@9..40,300..700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Fraunces', 'serif'],
+            sans: ['"DM Sans"', 'sans-serif']
+          },
+          colors: {
+            cream: '#FAF6EE',
+            paper: '#FFFDF8',
+            ink:   '#0F2237',
+            gold:  '#B6872B',
+            rust:  '#A54A34',
+            muted: '#6B6258',
+            rule:  '#E4DBC7'
+          },
+          letterSpacing: {
+            widest2: '0.3em'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html, body {
+      background: #EFE8D7;
+      color: #0F2237;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      font-feature-settings: "ss01", "ss02";
+    }
+    .display {
+      font-family: 'Fraunces', serif;
+      font-optical-sizing: auto;
+    }
+    .drop-cap::first-letter {
+      font-family: 'Fraunces', serif;
+      float: left;
+      font-size: 4.5rem;
+      line-height: 0.9;
+      padding: 0.35rem 0.6rem 0 0;
+      color: #B6872B;
+      font-weight: 500;
+    }
+    .grain {
+      background-image:
+        radial-gradient(circle at 20% 10%, rgba(182,135,43,0.06) 0%, transparent 40%),
+        radial-gradient(circle at 85% 90%, rgba(165,74,52,0.05) 0%, transparent 45%);
+    }
+    .rule-dashed {
+      background-image: linear-gradient(to right, #B6872B 50%, transparent 50%);
+      background-size: 8px 1px;
+      background-repeat: repeat-x;
+      background-position: center;
+    }
+    .hairline { border-color: #E4DBC7; }
+
+    /* Print */
+    @media print {
+      html, body { background: #FFFDF8 !important; }
+      .no-print { display: none !important; }
+      .page { box-shadow: none !important; margin: 0 !important; }
+      @page { size: A4 portrait; margin: 12mm; }
+    }
+  </style>
+</head>
+
+<body class="min-h-screen py-8 md:py-12 grain">
+
+  <!-- Download/print hint (screen only) -->
+  <div class="no-print max-w-[210mm] mx-auto mb-4 flex justify-end px-4">
+    <button onclick="window.print()" class="text-xs tracking-widest2 uppercase text-muted hover:text-ink transition border border-rule bg-paper px-4 py-2">
+      Print / Save PDF
+    </button>
+  </div>
+
+  <!-- A4 page -->
+  <article class="page max-w-[210mm] mx-auto bg-paper shadow-[0_30px_60px_-20px_rgba(15,34,55,0.25)] p-10 md:p-14 relative overflow-hidden">
+
+    <!-- decorative corner motif -->
+    <svg class="absolute top-0 right-0 w-40 h-40 opacity-[0.08] pointer-events-none" viewBox="0 0 200 200" fill="none">
+      <circle cx="170" cy="30" r="90" stroke="#B6872B" stroke-width="1"/>
+      <circle cx="170" cy="30" r="60" stroke="#B6872B" stroke-width="1"/>
+      <circle cx="170" cy="30" r="30" stroke="#B6872B" stroke-width="1"/>
+    </svg>
+
+    <!-- ============ PARTNER HEADER ============ -->
+    <header class="grid grid-cols-3 items-center gap-6 pb-6">
+      <div class="flex justify-start">
+        <img src="https://icarethailand.com/wp-content/themes/ictf/img/ictf-logo-gray-med.png"
+             alt="iCare Thailand Foundation"
+             class="max-h-14 md:max-h-16 max-w-full w-auto object-contain object-left">
+      </div>
+
+      <div class="text-center">
+        <div class="text-[10px] tracking-widest2 uppercase text-muted">In Partnership</div>
+        <div class="mt-1 rule-dashed h-[1px] w-20 mx-auto"></div>
+      </div>
+
+      <div class="flex justify-end">
+        <img src="https://rotary-bkkdach.clubdesk.com/clubdesk/wwwfiles/logo.png"
+             alt="Rotary Club Bangkok DACH"
+             class="max-h-14 md:max-h-16 max-w-full w-auto object-contain object-right">
+      </div>
+    </header>
+
+    <div class="border-t border-rule"></div>
+
+    <!-- ============ TITLE BLOCK ============ -->
+    <section class="pt-10 pb-8">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-xs tracking-widest2 uppercase text-gold font-semibold">Fact Sheet</span>
+        <span class="h-px w-8 bg-gold"></span>
+        <span class="text-xs tracking-widest2 uppercase text-muted">2026 · Mae Hong Son</span>
+      </div>
+
+      <h1 class="display text-[44px] md:text-[62px] font-medium leading-[1.02] tracking-tight text-ink">
+        Ban Ko Prae School<br>
+        <span class="italic font-light text-gold">Relocation</span> &amp; Water Works
+      </h1>
+
+      <p class="mt-5 text-lg md:text-xl text-muted font-light max-w-2xl leading-snug">
+        Building a water reservoir and water supply for a jungle school being moved out of a landslide zone.
+      </p>
+    </section>
+
+    <!-- ============ KEY STATS ============ -->
+    <section class="grid grid-cols-4 gap-4 md:gap-6 py-6 border-y border-rule">
+      <div>
+        <div class="display text-3xl md:text-4xl font-medium text-ink leading-none">6<span class="text-lg text-muted"> km</span></div>
+        <div class="text-[10px] md:text-xs text-muted uppercase tracking-widest mt-2">New site distance</div>
+      </div>
+      <div>
+        <div class="display text-3xl md:text-4xl font-medium text-ink leading-none">฿350<span class="text-lg text-muted">k</span></div>
+        <div class="text-[10px] md:text-xs text-muted uppercase tracking-widest mt-2">Estimated budget</div>
+      </div>
+      <div>
+        <div class="display text-3xl md:text-4xl font-medium text-ink leading-none">Jun<span class="text-lg text-muted"> ’26</span></div>
+        <div class="text-[10px] md:text-xs text-muted uppercase tracking-widest mt-2">Construction start</div>
+      </div>
+      <div>
+        <div class="display text-3xl md:text-4xl font-medium text-ink leading-none">2<span class="text-muted font-light">–</span>3</div>
+        <div class="text-[10px] md:text-xs text-muted uppercase tracking-widest mt-2">Onsite trips</div>
+      </div>
+    </section>
+
+    <!-- ============ 01 · PROJECT ============ -->
+    <section class="pt-12">
+      <div class="flex items-start gap-6">
+        <div class="display text-5xl text-gold leading-none font-light pt-1 w-12 shrink-0">01</div>
+        <div class="flex-1">
+          <h2 class="display text-2xl font-medium mb-3 text-ink">The Project</h2>
+          <p class="drop-cap text-[15px] leading-[1.7] text-ink/90">
+            Ban Ko Prae school, located in the jungle of Mae Hong Son province, must be relocated due to severe landslide risks at its current site. The school is moving to a new location <strong>6 km away</strong>. This project funds the construction of a water reservoir close to the new school site and the water supply connection that serves it — ensuring the relocated school has safe, reliable access to water from day one.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 · LOCATION ============ -->
+    <section class="pt-10">
+      <div class="flex items-start gap-6">
+        <div class="display text-5xl text-gold leading-none font-light pt-1 w-12 shrink-0">02</div>
+        <div class="flex-1">
+          <h2 class="display text-2xl font-medium mb-4 text-ink">Location &amp; Access</h2>
+
+          <!-- Route diagram -->
+          <div class="bg-cream/60 border border-rule p-5 md:p-6 my-2">
+            <svg viewBox="0 0 640 180" class="w-full h-auto" xmlns="http://www.w3.org/2000/svg">
+              <!-- ground -->
+              <line x1="0" y1="150" x2="640" y2="150" stroke="#E4DBC7" stroke-width="1"/>
+
+              <!-- route path: current → back → up -->
+              <path d="M 50 140 Q 180 130 340 130" fill="none" stroke="#B6872B" stroke-width="2" stroke-dasharray="5 4"/>
+              <path d="M 340 130 Q 460 90 590 35" fill="none" stroke="#B6872B" stroke-width="2" stroke-dasharray="5 4"/>
+
+              <!-- current school (rust dot with cross marker = danger) -->
+              <g transform="translate(50,140)">
+                <circle r="8" fill="#A54A34"/>
+                <circle r="14" fill="none" stroke="#A54A34" stroke-width="1" opacity="0.4"/>
+                <text y="32" text-anchor="middle" font-family="DM Sans" font-size="11" font-weight="600" fill="#0F2237">Current school</text>
+                <text y="46" text-anchor="middle" font-family="DM Sans" font-size="10" fill="#A54A34" font-style="italic">landslide risk</text>
+              </g>
+
+              <!-- midpoint: back on road -->
+              <g transform="translate(340,130)">
+                <circle r="5" fill="#6B6258"/>
+                <text y="-12" text-anchor="middle" font-family="DM Sans" font-size="10" fill="#6B6258">junction</text>
+              </g>
+
+              <!-- new school + reservoir marker -->
+              <g transform="translate(590,35)">
+                <!-- simple "water drop" + "school" stack -->
+                <path d="M 0 -14 C -8 -4 -8 4 0 6 C 8 4 8 -4 0 -14 Z" fill="#0F2237"/>
+                <rect x="-8" y="10" width="16" height="10" fill="#0F2237"/>
+                <text y="40" text-anchor="middle" font-family="DM Sans" font-size="11" font-weight="600" fill="#0F2237">New school</text>
+                <text y="54" text-anchor="middle" font-family="DM Sans" font-size="10" fill="#B6872B">+ water reservoir</text>
+              </g>
+
+              <!-- segment labels -->
+              <text x="195" y="118" text-anchor="middle" font-family="DM Sans" font-size="11" fill="#B6872B" font-weight="600">4 km · back along road</text>
+              <text x="470" y="70" text-anchor="middle" font-family="DM Sans" font-size="11" fill="#B6872B" font-weight="600">2 km · up the hill</text>
+            </svg>
+          </div>
+
+          <p class="text-[14px] leading-[1.7] text-ink/85 mt-4">
+            From the current school, the route retraces <strong>4 km back along the access road</strong>, then climbs <strong>2 km up the hill</strong> to the new site. The water reservoir is built <strong>close to the new school location</strong>, feeding the supply directly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 · TIMELINE ============ -->
+    <section class="pt-12">
+      <div class="flex items-start gap-6">
+        <div class="display text-5xl text-gold leading-none font-light pt-1 w-12 shrink-0">03</div>
+        <div class="flex-1">
+          <h2 class="display text-2xl font-medium mb-5 text-ink">Timeline</h2>
+
+          <ol class="relative border-l border-rule pl-6 space-y-5">
+            <li>
+              <span class="absolute -left-[5px] w-[9px] h-[9px] rounded-full bg-muted"></span>
+              <div class="text-[10px] tracking-widest2 uppercase text-gold font-semibold">April 2026</div>
+              <div class="text-[15px] text-ink">Songkran holiday period (Thai New Year)</div>
+            </li>
+            <li>
+              <span class="absolute -left-[5px] w-[9px] h-[9px] rounded-full bg-gold"></span>
+              <div class="text-[10px] tracking-widest2 uppercase text-gold font-semibold">Post-Songkran</div>
+              <div class="text-[15px] text-ink">Project paperwork formally signed</div>
+            </li>
+            <li>
+              <span class="absolute -left-[5px] w-[9px] h-[9px] rounded-full bg-gold"></span>
+              <div class="text-[10px] tracking-widest2 uppercase text-gold font-semibold">May 2026</div>
+              <div class="text-[15px] text-ink">Onsite observation — assess new school location and reservoir site</div>
+            </li>
+            <li>
+              <span class="absolute -left-[5px] w-[9px] h-[9px] rounded-full bg-ink"></span>
+              <div class="text-[10px] tracking-widest2 uppercase text-gold font-semibold">June 2026</div>
+              <div class="text-[15px] text-ink">Construction begins — water reservoir &amp; water supply</div>
+            </li>
+            <li>
+              <span class="absolute -left-[5px] w-[9px] h-[9px] rounded-full border border-ink bg-paper"></span>
+              <div class="text-[10px] tracking-widest2 uppercase text-gold font-semibold">2–3 follow-up trips</div>
+              <div class="text-[15px] text-ink">Onsite finalization, commissioning &amp; handover</div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- page break for print -->
+    <div class="hidden print:block h-0" style="page-break-after: always;"></div>
+
+    <!-- ============ 04 · SCOPE ============ -->
+    <section class="pt-12">
+      <div class="flex items-start gap-6">
+        <div class="display text-5xl text-gold leading-none font-light pt-1 w-12 shrink-0">04</div>
+        <div class="flex-1">
+          <h2 class="display text-2xl font-medium mb-5 text-ink">Scope of Work</h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="border border-rule bg-cream/40 p-5 relative">
+              <div class="absolute top-0 left-0 w-8 h-[3px] bg-rust"></div>
+              <div class="text-[10px] tracking-widest2 uppercase text-rust font-semibold mb-2">01 · Planning &amp; Design</div>
+              <ul class="text-[14px] leading-[1.7] text-ink/90 space-y-1 list-disc list-outside ml-5">
+                <li>Definition of required reservoir size and layout</li>
+                <li>Shading, filter, pump and piping specifications</li>
+              </ul>
+            </div>
+            <div class="border border-rule bg-cream/40 p-5 relative">
+              <div class="absolute top-0 left-0 w-8 h-[3px] bg-rust"></div>
+              <div class="text-[10px] tracking-widest2 uppercase text-rust font-semibold mb-2">02 · Reservoir Construction</div>
+              <ul class="text-[14px] leading-[1.7] text-ink/90 space-y-1 list-disc list-outside ml-5">
+                <li>Built close to the new school location</li>
+                <li>Sized to meet ongoing water demand</li>
+              </ul>
+            </div>
+            <div class="border border-rule bg-cream/40 p-5 relative">
+              <div class="absolute top-0 left-0 w-8 h-[3px] bg-rust"></div>
+              <div class="text-[10px] tracking-widest2 uppercase text-rust font-semibold mb-2">03 · Water Supply</div>
+              <ul class="text-[14px] leading-[1.7] text-ink/90 space-y-1 list-disc list-outside ml-5">
+                <li>Pipe connection from reservoir to the school</li>
+                <li>Fit-for-purpose for a remote jungle site</li>
+              </ul>
+            </div>
+            <div class="border border-rule bg-cream/40 p-5 relative">
+              <div class="absolute top-0 left-0 w-8 h-[3px] bg-rust"></div>
+              <div class="text-[10px] tracking-widest2 uppercase text-rust font-semibold mb-2">04 · Onsite Finalization</div>
+              <ul class="text-[14px] leading-[1.7] text-ink/90 space-y-1 list-disc list-outside ml-5">
+                <li>2–3 onsite trips to complete &amp; commission</li>
+                <li>Final checks and handover to the community</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 · BUDGET ============ -->
+    <section class="pt-12">
+      <div class="flex items-start gap-6">
+        <div class="display text-5xl text-gold leading-none font-light pt-1 w-12 shrink-0">05</div>
+        <div class="flex-1">
+          <h2 class="display text-2xl font-medium mb-4 text-ink">Budget</h2>
+
+          <div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 border-b border-rule pb-4">
+            <div>
+              <div class="display text-5xl md:text-6xl font-medium text-ink leading-none">THB 350,000</div>
+              <div class="text-sm text-muted mt-2">approximate total project cost</div>
+            </div>
+            <div class="text-[11px] text-muted italic max-w-[240px] text-left md:text-right">
+              Detailed line-item breakdown to be confirmed after the May onsite observation.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="mt-14 pt-5 border-t border-rule flex flex-col md:flex-row justify-between gap-2 text-[10px] tracking-widest2 uppercase text-muted">
+      <div>Working document · updates after May onsite observation</div>
+      <div class="flex items-center gap-3">
+        <span>iCare Thailand</span>
+        <span class="h-1 w-1 rounded-full bg-gold"></span>
+        <span>Rotary Club Bangkok DACH</span>
+        <span class="h-1 w-1 rounded-full bg-gold"></span>
+        <span>2026</span>
+      </div>
+    </footer>
+  </article>
+
+</body>
+</html>
